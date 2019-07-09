@@ -1,0 +1,6 @@
+EXPORTS
+    hmd_ @1
+    pcp_ @2
+    slr_ @3
+    tmp_ @4
+    wnd_ @5

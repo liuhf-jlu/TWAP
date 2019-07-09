@@ -1,0 +1,228 @@
+subbasin       1     1     1                              Subbasin: 1
+          000010000.sub
+subbasin       1     2     2                              Subbasin: 2
+          000020000.sub
+subbasin       1     3     3                              Subbasin: 3
+          000030000.sub
+subbasin       1     4     4                              Subbasin: 4
+          000040000.sub
+subbasin       1     5     5                              Subbasin: 5
+          000050000.sub
+subbasin       1     6     6                              Subbasin: 6
+          000060000.sub
+subbasin       1     7     7                              Subbasin: 7
+          000070000.sub
+subbasin       1     8     8                              Subbasin: 8
+          000080000.sub
+subbasin       1     9     9                              Subbasin: 9
+          000090000.sub
+subbasin       1    10    10                              Subbasin: 10
+          000100000.sub
+subbasin       1    11    11                              Subbasin: 11
+          000110000.sub
+subbasin       1    12    12                              Subbasin: 12
+          000120000.sub
+subbasin       1    13    13                              Subbasin: 13
+          000130000.sub
+subbasin       1    14    14                              Subbasin: 14
+          000140000.sub
+subbasin       1    15    15                              Subbasin: 15
+          000150000.sub
+subbasin       1    16    16                              Subbasin: 16
+          000160000.sub
+subbasin       1    17    17                              Subbasin: 17
+          000170000.sub
+subbasin       1    18    18                              Subbasin: 18
+          000180000.sub
+subbasin       1    19    19                              Subbasin: 19
+          000190000.sub
+subbasin       1    20    20                              Subbasin: 20
+          000200000.sub
+subbasin       1    21    21                              Subbasin: 21
+          000210000.sub
+subbasin       1    22    22                              Subbasin: 22
+          000220000.sub
+subbasin       1    23    23                              Subbasin: 23
+          000230000.sub
+subbasin       1    24    24                              Subbasin: 24
+          000240000.sub
+subbasin       1    25    25                              Subbasin: 25
+          000250000.sub
+subbasin       1    26    26                              Subbasin: 26
+          000260000.sub
+subbasin       1    27    27                              Subbasin: 27
+          000270000.sub
+reccnst       11    28     1
+Pnt.Source       1p.dat
+add            5    29     1    28
+route          2    30     1    29
+          000010000.rte000010000.swq
+reccnst       11    31     2
+Pnt.Source       2p.dat
+add            5    32     2    31
+route          2    33     2    32
+          000020000.rte000020000.swq
+reccnst       11    34     3
+Pnt.Source       5p.dat
+add            5    35     5    34
+route          2    36     5    35
+          000050000.rte000050000.swq
+reccnst       11    37     4
+Pnt.Source       6p.dat
+add            5    38     6    37
+route          2    39     6    38
+          000060000.rte000060000.swq
+reccnst       11    40     5
+Pnt.Source       8p.dat
+add            5    41     8    40
+route          2    42     8    41
+          000080000.rte000080000.swq
+reccnst       11    43     6
+Pnt.Source       9p.dat
+add            5    44     9    43
+route          2    45     9    44
+          000090000.rte000090000.swq
+routres        3    46     1    45
+          000090000.res000090000.lwq
+reccnst       11    47     7
+Pnt.Source      10p.dat
+add            5    48    10    47
+route          2    49    10    48
+          000100000.rte000100000.swq
+reccnst       11    50     8
+Pnt.Source      12p.dat
+add            5    51    12    50
+route          2    52    12    51
+          000120000.rte000120000.swq
+reccnst       11    53     9
+Pnt.Source      15p.dat
+add            5    54    15    53
+route          2    55    15    54
+          000150000.rte000150000.swq
+routres        3    56     2    55
+          000150000.res000150000.lwq
+reccnst       11    57    10
+Pnt.Source      18p.dat
+add            5    58    18    57
+route          2    59    18    58
+          000180000.rte000180000.swq
+reccnst       11    60    11
+Pnt.Source      19p.dat
+add            5    61    19    60
+route          2    62    19    61
+          000190000.rte000190000.swq
+reccnst       11    63    12
+Pnt.Source      22p.dat
+add            5    64    22    63
+route          2    65    22    64
+          000220000.rte000220000.swq
+routres        3    66     3    65
+          000220000.res000220000.lwq
+reccnst       11    67    13
+Pnt.Source      24p.dat
+add            5    68    24    67
+route          2    69    24    68
+          000240000.rte000240000.swq
+reccnst       11    70    14
+Pnt.Source      26p.dat
+add            5    71    26    70
+route          2    72    26    71
+          000260000.rte000260000.swq
+routres        3    73     4    72
+          000260000.res000260000.lwq
+add            5    74    13    46
+add            5    75    74    49
+reccnst       11    76    15
+Pnt.Source      13p.dat
+add            5    77    75    76
+route          2    78    13    77
+          000130000.rte000130000.swq
+add            5    79     3    30
+add            5    80    79    33
+reccnst       11    81    16
+Pnt.Source       3p.dat
+add            5    82    80    81
+route          2    83     3    82
+          000030000.rte000030000.swq
+add            5    84     4    83
+add            5    85    84    39
+reccnst       11    86    17
+Pnt.Source       4p.dat
+add            5    87    85    86
+route          2    88     4    87
+          000040000.rte000040000.swq
+add            5    89     7    88
+add            5    90    89    36
+reccnst       11    91    18
+Pnt.Source       7p.dat
+add            5    92    90    91
+route          2    93     7    92
+          000070000.rte000070000.swq
+routres        3    94     5    93
+          000070000.res000070000.lwq
+add            5    95    11    94
+add            5    96    95    42
+reccnst       11    97    19
+Pnt.Source      11p.dat
+add            5    98    96    97
+route          2    99    11    98
+          000110000.rte000110000.swq
+add            5   100    14    99
+add            5   101   100    52
+reccnst       11   102    20
+Pnt.Source      14p.dat
+add            5   103   101   102
+route          2   104    14   103
+          000140000.rte000140000.swq
+add            5   105    16    78
+add            5   106   105   104
+reccnst       11   107    21
+Pnt.Source      16p.dat
+add            5   108   106   107
+route          2   109    16   108
+          000160000.rte000160000.swq
+add            5   110    17    56
+add            5   111   110   109
+reccnst       11   112    22
+Pnt.Source      17p.dat
+add            5   113   111   112
+route          2   114    17   113
+          000170000.rte000170000.swq
+add            5   115    20   114
+add            5   116   115    59
+reccnst       11   117    23
+Pnt.Source      20p.dat
+add            5   118   116   117
+route          2   119    20   118
+          000200000.rte000200000.swq
+add            5   120    21    62
+add            5   121   120   119
+reccnst       11   122    24
+Pnt.Source      21p.dat
+add            5   123   121   122
+route          2   124    21   123
+          000210000.rte000210000.swq
+add            5   125    23   124
+add            5   126   125    66
+reccnst       11   127    25
+Pnt.Source      23p.dat
+add            5   128   126   127
+route          2   129    23   128
+          000230000.rte000230000.swq
+add            5   130    25   129
+add            5   131   130    69
+reccnst       11   132    26
+Pnt.Source      25p.dat
+add            5   133   131   132
+route          2   134    25   133
+          000250000.rte000250000.swq
+add            5   135    27   134
+add            5   136   135    73
+reccnst       11   137    27
+Pnt.Source      27p.dat
+add            5   138   136   137
+route          2   139    27   138
+          000270000.rte000270000.swq
+saveconc      14   139     1     0
+          watout.dat
+finish         0

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFA2F44A-2EBD-4FC8-8A83-0E35F922A105}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TWAP</RootNamespace>
+    <AssemblyName>TWAP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccessHelper.cs" />
+    <Compile Include="DbfHelper.cs" />
+    <Compile Include="EditReservoirData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditReservoirData.Designer.cs">
+      <DependentUpon>EditReservoirData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditResFile.cs" />
+    <Compile Include="EditResMonFile.cs" />
+    <Compile Include="FileAttr.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MgtManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MgtManage.Designer.cs">
+      <DependentUpon>MgtManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MgtParameter.cs" />
+    <Compile Include="OutputDataManag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputDataManag.Designer.cs">
+      <DependentUpon>OutputDataManag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointSouceManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointSouceManage.Designer.cs">
+      <DependentUpon>PointSouceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointSource.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadSWATOutput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadSWATOutput.Designer.cs">
+      <DependentUpon>ReadSWATOutput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunSwatModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunSwatModel.Designer.cs">
+      <DependentUpon>RunSwatModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectMgtSubbasin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectMgtSubbasin.Designer.cs">
+      <DependentUpon>SelectMgtSubbasin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectResevoir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectResevoir.Designer.cs">
+      <DependentUpon>SelectResevoir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterQuality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterQuality.Designer.cs">
+      <DependentUpon>WaterQuality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterYield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterYield.Designer.cs">
+      <DependentUpon>WaterYield.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeatherInputData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeatherInputData.Designer.cs">
+      <DependentUpon>WeatherInputData.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditReservoirData.resx">
+      <DependentUpon>EditReservoirData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MgtManage.resx">
+      <DependentUpon>MgtManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputDataManag.resx">
+      <DependentUpon>OutputDataManag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointSouceManage.resx">
+      <DependentUpon>PointSouceManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReadSWATOutput.resx">
+      <DependentUpon>ReadSWATOutput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunSwatModel.resx">
+      <DependentUpon>RunSwatModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectMgtSubbasin.resx">
+      <DependentUpon>SelectMgtSubbasin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectResevoir.resx">
+      <DependentUpon>SelectResevoir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterQuality.resx">
+      <DependentUpon>WaterQuality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterYield.resx">
+      <DependentUpon>WaterYield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeatherInputData.resx">
+      <DependentUpon>WeatherInputData.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
